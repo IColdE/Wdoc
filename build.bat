@@ -12,7 +12,7 @@ call %VCVARS% x64
 
 echo.
 echo Compiling main.cpp...
-cl /EHsc /W4 main.cpp /Fe:hwcheck.exe User32.lib gdi32.lib dxgi.lib
+cl /EHsc /W4 main.cpp /Fe:hwcheck.exe User32.lib gdi32.lib dxgi.lib Advapi32.lib
 
 if %ERRORLEVEL% equ 0 (
     echo.

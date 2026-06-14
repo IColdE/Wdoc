@@ -5,7 +5,22 @@
 *.ilk
 *.lib
 *.exp
+*.log
+*.tlog
+*.lastbuildstate
+
+# MSVC user files
+*.vcxproj.user
+*.sqlit
+
+# Build directories
+bin/
+out/
+build/
+x64/
+x86/
 
 # VS Code / IDE stuff
 .vscode/
 .idea/
+.vs/
